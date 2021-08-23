@@ -6,28 +6,48 @@
             top: 20%;
             z-index: 100;
             filter: drop-shadow(0px 5px 1px black);
-         
-        
+
+
         }
+    }
+
+    section {
 
         .aboutUs {
-            img {
+            display: flex;
+            justify-content:center;
+            flex-direction: column;
+            height: 675px;
+            background-color: nth($colours, 2);
+            h2{
+                display: flex;
+                justify-content: center;
+                text-indent: 20px;
+                font-size: 40px;
+                color: nth($colours, 4);
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                max-width: 1200px;
                 width: 100%;
+                margin: 0 auto;
             }
         }
     }
-        section {
-            .ComoLlegar {
-                img {
-                
-                    width: 100%;
-         
 
-                }
+    section {
+        .ComoLlegar {
+            img {
+
+                width: 100%;
+
+
             }
-
         }
 
+    }
 
-   
+
+
 }
