@@ -6,6 +6,34 @@
   font-family: "PT Serif", serif;
 }
 
+.navbar-light .navbar-nav {
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #0e1c8b;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #3c51ec;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0e1c8b;
+}
+.navbar-light .navbar-nav .nav-link:not(:hover) {
+  color: #3c51ec;
+}
+.navbar-light .navbar-brand {
+  color: #3c51ec;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.navbar-light .navbar-brand:hover {
+  color: #ec853c;
+}
+.navbar-light .navbar-brand:not(:hover) {
+  color: #3c51ec;
+}
+
 .flexWrap article .logoC {
   margin: 40px auto;
   position: absolute;
