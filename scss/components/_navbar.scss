@@ -1,16 +1,19 @@
 .navbar-light {
     .navbar-nav {
+        height: 50px;
+
         font-size: 20px;
         .nav-link.active {
             color: nth($colours, 5);
-
         }
 
         .nav-link {
             color: nth($colours, 1);
+            height: 50px;
 
             &:hover {
                 color: nth($colours, 5);
+                background-color: nth($colours, 2);
 
             }
             &:not(:hover){
@@ -23,11 +26,11 @@
     .navbar-brand {
         color: nth($colours, 1);
         font-size: 30px;
+        height: 50px;
         margin: 0;
-        padding: 0;
+        padding: 0 7px;
         &:hover{
-            color: nth($colours, 2);
-
+            color: nth($colours, 1);
         }
         &:not(:hover){
         color: nth($colours, 1);
@@ -35,3 +38,7 @@
         }
     }
 }
+
+// .nav-item{
+
+// }
