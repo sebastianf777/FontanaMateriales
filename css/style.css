@@ -7,11 +7,13 @@
 }
 
 .flexWrap article .logoC {
-  margin-top: 15px;
+  margin: 40px auto;
   position: absolute;
-  top: 20%;
-  left: 34%;
-  width: 33%;
+  max-width: 300px;
+  top: 10%;
+  left: 0;
+  right: 0;
+  width: 34%;
   z-index: 100;
 }
 .flexWrap article .logoC h1 {
@@ -26,6 +28,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.flexWrap article .carousel-inner div img {
+  max-height: 650px;
 }
 .flexWrap section .aboutUs {
   display: flex;
