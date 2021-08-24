@@ -12,8 +12,8 @@
             height: 50px;
 
             &:hover {
-                color: nth($colours, 5);
-                background-color: nth($colours, 2);
+                color: hsl(233, 82%, 58%);
+                background: linear-gradient(0deg, hsl(25, 82%, 58%) 0%, rgba(251,255,0,1) 100%);
 
             }
             &:not(:hover){
@@ -39,6 +39,22 @@
     }
 }
 
+.bg-light{
+    background-color: linear-gradient(0deg, hsl(0, 2%, 70%) 0%, white 100%) !important;
+}
 // .nav-item{
 
 // }
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+
+    .navbar{
+        height: 50px;
+    }
+    .nav-link{
+        margin: 0 -40px;
+        text-indent: 50px;
+    background-color: hsl(0, 2%, 90%) !important;
+
+    }
+}
